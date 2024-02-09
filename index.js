@@ -3,7 +3,7 @@ const cors = require("cors")
 const mongoose = require("mongoose")
 const jwt = require("jsonwebtoken")
 const bcrypt = require("bcrypt")
-const JWT_SECRET = "ijsdh3434t34g^$%()dfgDg(DFHDfisfd"
+const JWT_SECRET = "jwtsecret"
 const {verify} = require("jsonwebtoken")
 const app = express()
 app.use(express.json())
